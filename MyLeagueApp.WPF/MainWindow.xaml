@@ -1,0 +1,9 @@
+﻿<Window x:Class="MyLeagueApp.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{Binding Path=Main, Source={StaticResource Locator}}" >
+    <Grid>
+
+    </Grid>
+</Window>
